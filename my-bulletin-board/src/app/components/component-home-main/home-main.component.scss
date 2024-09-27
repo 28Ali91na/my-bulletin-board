@@ -1,0 +1,200 @@
+* {
+    overflow-x: hidden;
+}
+
+
+.main {
+    padding-bottom: 80px;
+    width: 1918px; 
+}
+
+
+.container {
+    width: 1296px;
+    margin: 0 auto;
+}
+
+.main__board {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    height: 84px;
+}
+
+.line {
+    border-bottom: 1px solid #E2E8F0;
+    margin-bottom: 32px;
+    width: 1918px;
+}
+
+.main__board__title {
+    height: 36px;
+}
+
+.main__board__title h1 {
+    margin: 0 12px 0 0;
+    font-family: Inter;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    color: #1E293B;
+}
+
+.main__board__categories {
+    padding: 0 8px;
+    margin: 0 12px;
+    width: 152px;
+    height: 36px;
+    background-color:#FFFFFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    color: #3B82F6;
+    text-align: left;
+    border: 1px solid #3B82F6;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+}
+
+/* .main__board__categories:hover {
+    cursor: pointer;
+    background-color: #3c5680;
+    transition: background-color 1s ease-in-out;
+    
+} */
+
+.main__board__categories-icon {
+    padding-right: 12px;
+    vertical-align: middle;
+}
+
+.main__board__search {
+    width: 824px;
+    height: 36px;
+    border-radius: 4px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+}
+
+.main__board__search input {
+    padding: 0 12px;
+    width: 734px;
+    height: 36px;
+    box-sizing: border-box;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    border: 1px solid #CBD5E1;
+    border-radius: 4px 0px 0px 4px;
+    /* position: relative; */
+  
+}
+
+.main__board__search button {
+    padding: 8px 12px 8px 12px;
+    height: 36px;
+    position: absolute;
+    border: none;
+    border-radius: 0px 4px 4px 0px;
+    background-color: #3B82F6;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color:#FFFFFF;
+    cursor: pointer;
+}
+
+.main__board__search button:hover {
+    cursor: pointer;
+    background-color: #3c5680;
+    transition: background-color 1s ease-in-out;
+}
+
+.main__board__search__icon {
+    margin-left:5px;
+    vertical-align: middle;
+}
+
+.main__products {
+    width: 1296px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    /* gap: 10px; */
+}
+
+.main__products__title-recommendations h2 {
+    margin: 0;
+    margin-bottom: 10px;
+    padding-bottom: 13px;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+    color: #1E293B;
+
+}
+
+.main__products__cards-products {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 32px;
+}
+
+.main__products__cards-products__card-product {
+    display: flex;
+    flex-direction: column;
+    width: 306px;
+    /* height: 336px; */
+}
+
+.main__products__cards-products__card-product__card-img {
+    margin-bottom: 8px;
+    width: 306px;
+    height: 240px;
+    border-radius: 4px;
+}
+
+.main__products__cards-products__card-product__card-title, 
+.main__products__cards-products__card-product__card-price, 
+.main__products__cards-products__card-product__card-adress, 
+.main__products__cards-products__card-product__card-time {
+    margin: 0;
+    font-family: Inter;
+    text-align: left;
+}
+
+.main__products__cards-products__card-product__card-title, 
+.main__products__cards-products__card-product__card-price {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.main__products__cards-products__card-product__card-title {
+    color: #3B82F6;
+}
+
+.main__products__cards-products__card-product__card-price {
+    color: #1E293B;
+}
+
+.main__products__cards-products__card-product__card-adress, 
+.main__products__cards-products__card-product__card-time {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #64748B;
+}
+
+
